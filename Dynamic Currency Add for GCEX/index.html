@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form action="" class="form">
+            <input type="text" class="input" placeholder="Enter Currency Name">
+            <input type="text" class="binput" placeholder="Currency Buy Price">
+            <input type="text" class="sinput" placeholder="Currency Sell Price ">
+
+            <button>Submit</button>
+        </form>
+
+
+        <form action="" class="operationForm">
+            <input type="number" class="amount" placeholder="Enter Amount">
+
+            <div class="selectContainer">
+                <select name="" id="buySelect" >
+                    <option value="0">Choose Buy Currency</option>
+                    <option value="usd">USD</option>
+                    <option value="pound">POUND</option>
+                    <option value="euro">EURO</option>
+                </select>
+    
+                <select name="" id="sellSelect" >
+                    <option value="0">Choose Sell Currency</option>
+                    <option value="usd">USD</option>
+                    <option value="pound">POUND</option>
+                    <option value="euro">EURO</option>
+                </select>
+            </div>
+  
+
+            <button>Purchase</button>
+        </form>
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
